@@ -55,10 +55,49 @@ if (license === "None") {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
+if (license === "MIT") {
+  return "MIT License";
+}
+if (license === "Apache") {
+  return "Apache License 2.0";
+}
+if (license === "GPL") {
+  return "GNU General Public License v3.0";
+}
+if (license === "BSD") {
+  return "BSD 3-Clause License";
+}
+if (license === "None") {
+  return "";
+}
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
+  ## Description
+  ${data.description}
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
+  * [Contributing](#contributing)
+  * [Badges](#badges)
+  * [Features](#features)
+  * [How to Contribute](#how-to-contribute)
+  * [Authors](#authors)
+  * [Project Title](#project-title)
+  * [License](#license)
+  * [Acknowledgements](#acknowledgements)
+  * [Contact](#contact)
+  * [Tests](#tests)
+  * [FAQ](#faq)
+  * [Support](#support)
 
 `;
 }
