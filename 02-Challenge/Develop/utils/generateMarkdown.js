@@ -53,6 +53,23 @@ if (license === "None") {
 
 
 // TODO: Create a function that returns the license section of README
+function renderLicenseSection(license) {}
+if (license === "MIT") {
+  return "MIT License";
+}
+if (license === "Apache") {
+  return "Apache License 2.0";
+}
+if (license === "GPL") {
+  return "GNU General Public License v3.0";
+}
+if (license === "BSD") {
+  return "BSD 3-Clause License";
+}
+if (license === "None") {
+  return "";
+}
+
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 if (license === "MIT") {
