@@ -93,13 +93,11 @@ if (license === "None") {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
-  ${renderLicenseLink(data.license)}
   ## Description
   ${data.description}
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
   * [Tests](#tests)
   * [License](#license)
   * [Questions](#questions)
@@ -115,6 +113,13 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [FAQ](#faq)
   * [Support](#support)
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
 
 `;
 }
