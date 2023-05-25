@@ -1,7 +1,7 @@
 # undefined
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
-  all work is complete
+  done
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -21,13 +21,13 @@
   * [FAQ](#faq)
 
   ## Installation
-  complete
+  its done
 
   ## Usage
-  to help lazy people
+  lazy people
 
  ## Tests
-  just input stuff
+  ive done this 11 times
 
  ## License
 
@@ -37,13 +37,13 @@ This project is licensed under the MIT license.
   nope
 
   ## Contributing
-  suresh
+  me
 
   ## Badges
   badge of awsome
 
   ## Features
-  helps
+  awsome
 
   ## License
   MIT
@@ -52,7 +52,7 @@ This project is licensed under the MIT license.
   suresh
 
   ## Contact
-  gmoney
+  ant
 
   ## Support
-  me
+  suresh
