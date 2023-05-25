@@ -61,12 +61,12 @@ const questions = [
 // TODO: Create an array of questions for user input
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
 fileName = 'README.md';
 fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('Success!')
 );
-
+}
 
 // TODO: Create a function to initialize app
 function init() {}
