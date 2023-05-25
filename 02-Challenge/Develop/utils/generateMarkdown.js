@@ -105,6 +105,15 @@ function generateMarkdown(data) {
   ${data.tests}
 
  ${renderLicenseSection(data.license)}
+
+ ## Questions
+  ${data.questions}
+
+  ## Contributing
+  ${data.contributing}
+
+  ## Badges
+  ${data.badges}
 `;
 }
 
