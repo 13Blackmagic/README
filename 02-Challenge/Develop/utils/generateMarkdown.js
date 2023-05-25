@@ -99,7 +99,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Tests](#tests)
-  * [License](#license)
+  * ${renderLicenseLink(data.license)}
   * [Questions](#questions)
   * [Contributing](#contributing)
   * [Badges](#badges)
@@ -123,7 +123,7 @@ function generateMarkdown(data) {
  ## Tests
   ${data.tests}
 
-  
+ ${renderLicenseSection(data.license)}
 `;
 }
 
