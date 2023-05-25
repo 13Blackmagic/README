@@ -11,6 +11,11 @@ const writeFileAsync = util.promisify(fs.writeFile);
 const questions = [
     {
         type: 'input',
+        name: 'projectTitle',
+        message: 'What is the title of your project?',
+    },
+    {
+        type: 'input',
         name: 'title',
         message: 'What is the title of your project?',
     },
@@ -68,6 +73,14 @@ const questions = [
         name: 'features',
         message: 'Please provide features for your project.',
     },
+    { type: 'input',
+        name: 'support',
+        message: 'Please provide support for your project.',
+    },
+    { type: 'input',
+        name: 'acknowledgements',
+        message: 'Please provide acknowledgements for your project.',
+    },
 ];
 
 
@@ -75,7 +88,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-fileName = 'README8.md';
+fileName = 'README10.md';
 fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('Success!')
 );
@@ -87,7 +100,7 @@ inquirer.prompt(questions).then((answers) => {
     console.log(answers);
     const response = generateMarkdown(answers);
     console.log(response);
-    writeToFile('README8.md', response);
+    writeToFile('README10.md', response);
 });
 
 

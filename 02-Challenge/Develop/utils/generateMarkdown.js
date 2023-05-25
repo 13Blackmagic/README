@@ -118,12 +118,6 @@ function generateMarkdown(data) {
   ## Features
   ${data.features}
 
-  ## How to Contribute
-  ${data.howToContribute}
-
-  ## Authors
-  ${data.authors}
-
   ## Project Title
   ${data.projectTitle}
 
@@ -135,12 +129,6 @@ function generateMarkdown(data) {
 
   ## Contact
   ${data.contact}
-
-  ## Tests
-  ${data.tests}
-
-  ## FAQ
-  ${data.faq}
 
   ## Support
   ${data.support}
