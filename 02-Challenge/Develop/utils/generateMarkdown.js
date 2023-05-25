@@ -85,15 +85,12 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [Badges](#badges)
   * [Features](#features)
-  * [How to Contribute](#how-to-contribute)
-  * [Authors](#authors)
   * [Project Title](#project-title)
   * [License](#license)
   * [Acknowledgements](#acknowledgements)
   * [Contact](#contact)
   * [Tests](#tests)
   * [FAQ](#faq)
-  * [Support](#support)
 
   ## Installation
   ${data.installation}
@@ -117,9 +114,6 @@ function generateMarkdown(data) {
 
   ## Features
   ${data.features}
-
-  ## Project Title
-  ${data.projectTitle}
 
   ## License
   ${data.license}

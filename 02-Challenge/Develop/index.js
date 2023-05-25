@@ -16,11 +16,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
-    },
-    {
-        type: 'input',
         name: 'description',
         message: 'Please provide a description of your project.',
     },
