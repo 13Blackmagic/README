@@ -52,23 +52,23 @@ This project is licensed under the ${license} license.`;
 
 }
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-if (license === "MIT") {
-  return "MIT License";
-}
-if (license === "Apache") {
-  return "Apache License 2.0";
-}
-if (license === "GPL") {
-  return "GNU General Public License v3.0";
-}
-if (license === "BSD") {
-  return "BSD 3-Clause License";
-}
-if (license === "None") {
-  return "";
-}
-}
+// function renderLicenseSection(license) {
+// if (license === "MIT") {
+//   return "MIT License";
+// }
+// if (license === "Apache") {
+//   return "Apache License 2.0";
+// }
+// if (license === "GPL") {
+//   return "GNU General Public License v3.0";
+// }
+// if (license === "BSD") {
+//   return "BSD 3-Clause License";
+// }
+// if (license === "None") {
+//   return "";
+// }
+// }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
