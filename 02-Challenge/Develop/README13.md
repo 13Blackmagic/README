@@ -1,7 +1,8 @@
-# red
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-  ## Description
-  this is about the color red
+# READ ME
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
+  ## Title // this is the title of the project
+  ## Description 
+  READ ME out of node.js
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -13,64 +14,46 @@
   * [Contributing](#contributing)
   * [Badges](#badges)
   * [Features](#features)
-  * [How to Contribute](#how-to-contribute)
-  * [Authors](#authors)
   * [Project Title](#project-title)
   * [License](#license)
   * [Acknowledgements](#acknowledgements)
   * [Contact](#contact)
   * [Tests](#tests)
   * [FAQ](#faq)
-  * [Support](#support)
 
   ## Installation
-  add two colors together
+  index.js
 
   ## Usage
-  red is a great color
+  a lot easier than another readme
 
  ## Tests
-  two primary colors
+  ive done this 13 times
 
  ## License
 
 This project is licensed under the MIT license.
 
  ## Questions
-  undefined
+  not right now
 
   ## Contributing
-  yellow
+  School
 
   ## Badges
-  undefined
+  Badge of awsome
 
   ## Features
-  undefined
-
-  ## How to Contribute
-  undefined
-
-  ## Authors
-  undefined
-
-  ## Project Title
-  undefined
+  this is an awsome feature
 
   ## License
   MIT
 
   ## Acknowledgements
-  undefined
+  i worked long on this
 
   ## Contact
-  undefined
-
-  ## Tests
-  two primary colors
-
-  ## FAQ
-  undefined
+  anthony.lanier@outlook.com
 
   ## Support
-  undefined
+  suresh my TA

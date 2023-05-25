@@ -71,11 +71,11 @@ This project is licensed under the ${license} license.`;
 // }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(data) { // data is the answers from the user
   return `# ${data.title}
-  ${renderLicenseBadge(data.license)}
-  ## Title
-  ## Description
+  ${renderLicenseBadge(data.license)} 
+  ## Title // this is the title of the project
+  ## Description 
   ${data.description}
   ## Table of Contents
   * [Installation](#installation)
