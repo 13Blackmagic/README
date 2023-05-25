@@ -114,6 +114,36 @@ function generateMarkdown(data) {
 
   ## Badges
   ${data.badges}
+
+  ## Features
+  ${data.features}
+
+  ## How to Contribute
+  ${data.howToContribute}
+
+  ## Authors
+  ${data.authors}
+
+  ## Project Title
+  ${data.projectTitle}
+
+  ## License
+  ${data.license}
+
+  ## Acknowledgements
+  ${data.acknowledgements}
+
+  ## Contact
+  ${data.contact}
+
+  ## Tests
+  ${data.tests}
+
+  ## FAQ
+  ${data.faq}
+
+  ## Support
+  ${data.support}
 `;
 }
 
