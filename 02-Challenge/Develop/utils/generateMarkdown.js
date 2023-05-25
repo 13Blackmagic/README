@@ -44,21 +44,12 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 function renderLicenseSection(license) {
-if (license === "MIT") {
-  return "MIT License";
-}
-if (license === "Apache") {
-  return "Apache License 2.0";
-}
-if (license === "GPL") {
-  return "GNU General Public License v3.0";
-}
-if (license === "BSD") {
-  return "BSD 3-Clause License";
-}
-if (license === "None") {
-  return "";
-}
+  if (license !== 'None') {
+    return `## License
+
+This project is licensed under the ${license} license.`;
+  }
+
 }
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
@@ -89,7 +80,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Tests](#tests)
-  * ${renderLicenseLink(data.license)}
+   ${renderLicenseLink(data.license)}
   * [Questions](#questions)
   * [Contributing](#contributing)
   * [Badges](#badges)
