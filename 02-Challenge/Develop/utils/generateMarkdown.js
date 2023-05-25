@@ -71,7 +71,7 @@ if (license === "None") {
 }
 }
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
 if (license === "MIT") {
   return "MIT License";
 }
@@ -87,7 +87,7 @@ if (license === "BSD") {
 if (license === "None") {
   return "";
 }
-
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
