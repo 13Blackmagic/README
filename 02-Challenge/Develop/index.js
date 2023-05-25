@@ -40,6 +40,11 @@ const questions = [
         message: 'Please provide test instructions for your project.',
     },
     {
+        type: 'input',
+        name: 'badges',
+        message: 'Please provide badges for your project.',
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Please select a license for your project.',
@@ -52,8 +57,16 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'email',
+        name: 'contact',
         message: 'Please provide your email address.',
+    },
+    {  type: 'input',
+        name: 'questions',
+        message: 'Any questions?.',
+    },
+    { type: 'input',
+        name: 'features',
+        message: 'Please provide features for your project.',
     },
 ];
 
@@ -62,7 +75,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-fileName = 'README6.md';
+fileName = 'README8.md';
 fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('Success!')
 );
@@ -74,7 +87,7 @@ inquirer.prompt(questions).then((answers) => {
     console.log(answers);
     const response = generateMarkdown(answers);
     console.log(response);
-    writeToFile('README6.md', response);
+    writeToFile('README8.md', response);
 });
 
 

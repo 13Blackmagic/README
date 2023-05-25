@@ -1,7 +1,7 @@
-# yellow
+# red
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
-  haha
+  this is about the color red
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -24,14 +24,53 @@
   * [Support](#support)
 
   ## Installation
-  haha
+  add two colors together
 
   ## Usage
-  haha
+  red is a great color
 
  ## Tests
-  haha
+  two primary colors
 
  ## License
 
 This project is licensed under the MIT license.
+
+ ## Questions
+  undefined
+
+  ## Contributing
+  yellow
+
+  ## Badges
+  undefined
+
+  ## Features
+  undefined
+
+  ## How to Contribute
+  undefined
+
+  ## Authors
+  undefined
+
+  ## Project Title
+  undefined
+
+  ## License
+  MIT
+
+  ## Acknowledgements
+  undefined
+
+  ## Contact
+  undefined
+
+  ## Tests
+  two primary colors
+
+  ## FAQ
+  undefined
+
+  ## Support
+  undefined
